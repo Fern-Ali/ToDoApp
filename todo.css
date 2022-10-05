@@ -1,0 +1,154 @@
+﻿body {
+    text-align: center;
+}
+h1 {
+    display: block;
+    color: hotpink;
+    text-align: center;
+    /*margin-bottom: 50px;*/
+    margin-top: 50px;
+    padding-top: 50px;
+    font-family: 'Satisfy', cursive;
+    margin: 0 auto;
+    font-size: 3.5em;
+}
+
+
+#task {
+    height: 50px;
+    font-size: 2em;
+    margin-top: 50px;
+}
+label {
+    color: white;
+    font-weight: 700;
+    height: 50px;
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+}
+
+#submitbutton {
+    background-color: pink;
+    border-radius: 5px;
+    font-weight: 900;
+    border-color: white;
+    color: #e600ac;
+    font-family: 'Satisfy', cursive;
+    height: 50px;
+    font-size: 2em;
+    
+}
+
+#submitbutton:hover{
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+::placeholder {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+.xButton {
+    background-color: pink;
+    border-radius: 5px;
+    font-weight: 900;
+    border-color: white;
+    color: #e600ac;
+    
+    
+    
+}
+
+.xButton:hover{
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+.flex-container{
+    /* We first create a flex layout context */
+    display: flex;
+    /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+#container {
+    
+    height: 150px;
+}
+
+.flex-item {
+    background: #FFCBF3;
+    border: 2px solid white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    /*width: 200px;*/
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    color: hotpink;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: right;
+    font-family: 'Satisfy', cursive;
+    box-shadow: 2.5px 2.5px;
+}
+
+.flex-item:hover {
+    cursor: pointer;
+    color: #e600ac;
+    border-radius: 5px;
+    border-color: white;
+    background-color: pink;
+}
+.flex-title {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    > span
+
+{
+    white-space: nowrap;
+}
+
+.title-main {
+    flex-grow: 1;
+}
+
+.title {
+    border-bottom: 1px solid #ccc;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+/*.hover {
+    cursor: pointer;
+}*/
